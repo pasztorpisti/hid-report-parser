@@ -1,0 +1,8 @@
+*.aps
+*.vcxproj.user
+
+/vs*/.vs/
+/vs*/Intermediate/
+/vs*/Output/
+# NuGet packages (like google test) that vs2019 downloads based on the project's packages.config file
+/vs*/packages/

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\hid_report_parser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\pch.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\descriptor_samples.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\hid_report_parser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\pch.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\descriptor_samples.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5b7bb71b-e017-4573-ba85-b72fdf750de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{d587f2ab-5e33-4e5c-9fb1-fb4cec15d738}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
