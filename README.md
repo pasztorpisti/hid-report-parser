@@ -25,7 +25,8 @@ Cons:
   - Input reports are parsed into the program's variables without allocations
 
 The dependency on `stl` makes this library a bad fit for embedded hardware
-with limited resources (tiny amount of RAM, lack of `stl` support).
+with limited resources (tiny amount of RAM, lack of `stl` support) but it
+can provide great help while prototyping on beefier systems like the rp2040.
 
 
 Usage
@@ -123,6 +124,11 @@ void on_unmount_hid_interface(uint8_t dev_addr, uint8_t hid_interface_num) {
 
 The above example can be found in the [`test/test.cpp`](./test/test.cpp) file
 and can be executed as a test.
+
+Arduino example for rp2040 boards:
+[`examples/hid-mouse-host-and-device`](./examples/hid-mouse-host-and-device)
+It can be accessed from the Arduino IDE's `File | Examples | HID report parser`
+menu after installing this git repo as an Arduino library.
 
 
 Detecting the type of a USB input device
